@@ -12,5 +12,5 @@ export default defineConfig({
   },
   integrations: [tailwind(), icon(), react(), compress()],
   site: "https://project-mirage.github.io/vector-ai/",
-  base: "/vector-ai"
+  // base: "/vector-ai"
 });
