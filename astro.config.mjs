@@ -8,9 +8,9 @@ import compress from "astro-compress";
 // https://astro.build/config
 export default defineConfig({
   redirects: {
-    "/vector-ai/products": "/vector-ai/products/vfit"
+    "/vectoraico.github.io/products": "/vectoraico.github.io/products/vfit"
   },
   integrations: [tailwind(), icon(), react(), compress()],
-  site: "https://project-mirage.github.io/vector-ai/",
-  // base: "/vector-ai"
+  site: "https://project-mirage.github.io/vectoraico.github.io/",
+  base: "/vectoraico.github.io"
 });
