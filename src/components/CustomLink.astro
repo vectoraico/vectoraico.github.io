@@ -1,8 +1,9 @@
 ---
 const { href, ...rest } = Astro.props;
-const isExternal = href.startsWith("http://") || href.startsWith("https://");
-const base = "";
 
+// use if you want to prefix all links with a base
+const base = "/vector-ai/";
+const isExternal = href.startsWith("http://") || href.startsWith("https://");
 const getPrefixedHref = (href: string) => {
   // check if already prefixed
   if (href.startsWith(`/${base}/`)) {
@@ -19,6 +20,6 @@ const getPrefixedHref = (href: string) => {
 };
 ---
 
-<a href={getPrefixedHref(href)} {...rest}>
+<a href={href} {...rest}>
   <slot />
 </a>
