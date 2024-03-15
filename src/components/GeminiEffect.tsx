@@ -29,7 +29,7 @@ export default function GoogleGeminiEffectDemo() {
           pathLengthFifth,
         ]}
         title="Inspire, create, and innovate"
-        description="Discover the power of AI that speaks your language and understands your world. Vector's AI solutions are crafted with precision and empathy, making technology accessible and impactful. Join us in shaping a future where technology connects, not complicates."
+        description="Discover the power of AI that speaks your language and understands your world. VECTOR's AI solutions are crafted with precision and empathy, making technology accessible and impactful. Join us in shaping a future where technology connects, not complicates."
       />
     </div>
   );

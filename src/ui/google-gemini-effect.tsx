@@ -83,7 +83,7 @@ export const GoogleGeminiEffect = ({
       <div className="flex w-full justify-center">
         <img
           src="/vector.png"
-          alt="vector logo"
+          alt="VECTOR logo"
           className="absolute -top-[170px] w-48"
         />
       </div>
