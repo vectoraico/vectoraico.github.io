@@ -12,20 +12,23 @@ const orderedSites = featuredSites.sort(
 );
 ---
 
-<ContentSection title="Showcase" id="showcase">
+<ContentSection title="Hallmarks" id="showcase">
   <Fragment slot="lead">
-    <h2 class="mx-auto max-w-[80vw] md:max-w-[40vw] text-balance text-center text-xl">
-      Astro comes <span class="text-primary">batteries included</span>. It takes
+    <h2
+      class="mx-auto max-w-[80vw] text-balance text-center text-xl md:max-w-[40vw]"
+    >
+      Explore the path we've covered as we delve into our journey.
+      <!-- Astro comes <span class="text-primary">batteries included</span>. It takes
       the best parts of
       <span class="text-primary">state-of-the-art</span>
-      tools and adds its own <span class="text-primary">innovations</span>.
+      tools and adds its own <span class="text-primary">innovations</span>. -->
     </h2>
   </Fragment>
   <div class="max-w-6xl space-y-2">
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {orderedSites.map((site) => <ShowcaseCard site={site} />)}
     </div>
-    <p class="text-sm text-right">
+    <p class="text-right text-sm">
       <a class="text-primary" href="https://astro.build/showcase/">
         ...and more &rarr;
       </a>

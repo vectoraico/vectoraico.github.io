@@ -5,78 +5,82 @@ import type { CompatibilityItem } from "@/types";
 
 const frameworks: Array<CompatibilityItem> = [
   {
-    title: "React",
-    icon: "frameworks/react",
-    url: "https://reactjs.org/",
+    title: "PyTorch",
+    icon: "frameworks/pytorch",
+    url: "https://pytorch.org/",
   },
   {
-    title: "Preact",
-    icon: "frameworks/preact",
-    url: "https://preactjs.com/",
+    title: "TensorFlow",
+    icon: "frameworks/tensorflow",
+    url: "https://www.tensorflow.org/",
   },
   {
-    title: "Svelte",
-    icon: "frameworks/svelte",
-    url: "https://svelte.dev/",
+    title: "OpenCV",
+    icon: "frameworks/opencv",
+    url: "https://opencv.org/",
   },
   {
-    title: "Vue",
-    icon: "frameworks/vue",
-    url: "https://vuejs.org/",
+    title: "Flask",
+    icon: "frameworks/flask",
+    url: "https://flask.palletsprojects.com/en/3.0.x//",
   },
   {
-    title: "Solid",
-    icon: "frameworks/solid",
-    url: "https://www.solidjs.com/",
+    title: "Gradio",
+    icon: "frameworks/gradio",
+    url: "https://www.gradio.app/",
   },
   {
-    title: "Lit",
-    icon: "frameworks/lit",
-    url: "https://lit.dev/",
+    title: "OpenAI",
+    icon: "frameworks/openai",
+    url: "https://platform.openai.com/docs/libraries/",
   },
 ];
 
 const platforms: Array<CompatibilityItem> = [
   {
-    title: "Netlify",
-    icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
+    title: "HuggingFace",
+    icon: "platforms/hf",
+    url: "https://huggingface.co/",
   },
   {
-    title: "Vercel",
-    icon: "platforms/vercel",
-    url: "https://vercel.com/",
+    title: "Docker",
+    icon: "platforms/docker",
+    url: "https://www.docker.com/",
   },
   {
-    title: "Cloudflare",
-    icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
+    title: "Google Colab",
+    icon: "platforms/colab",
+    url: "https://colab.google/",
   },
   {
-    title: "Render",
-    icon: "platforms/render",
-    url: "https://render.com/",
+    title: "Kaggle",
+    icon: "platforms/kaggle",
+    url: "https://www.kaggle.com/",
   },
   {
     title: "GitHub",
     icon: "fa-brands:github",
-    url: "https://pages.github.com/",
+    url: "https://github.com/",
   },
   {
-    title: "GitLab",
-    icon: "fa-brands:gitlab",
-    url: "https://docs.gitlab.com/ee/user/project/pages/",
+    title: "AWS",
+    icon: "platforms/aws",
+    url: "https://aws.amazon.com/",
   },
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="AI Toolkit" id="compatibility">
   <Fragment slot="lead">
-    <h2 class="mx-auto max-w-[80vw] md:max-w-[40vw] text-balance text-center text-xl">
-      Astro comes <span class="text-primary">batteries included</span>. It takes
+    <h2
+      class="mx-auto max-w-[80vw] text-balance text-center text-xl md:max-w-[40vw]"
+    >
+      Navigate through the essential tools and platforms for streamlined AI
+      development.
+      <!-- Astro comes <span class="text-primary">batteries included</span>. It takes
       the best parts of
       <span class="text-primary">state-of-the-art</span>
-      tools and adds its own <span class="text-primary">innovations</span>.
+      tools and adds its own <span class="text-primary">innovations</span>. -->
     </h2>
   </Fragment>
   <CompatibilityList
