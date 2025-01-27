@@ -35,6 +35,12 @@ export const FloatingNav = ({
     ];
   }
 
+  // Add a special "Work with Us" button at the top
+  const workWithUsButton = {
+    name: "Work with Us",
+    link: "https://www.upwork.com/agencies/vectoraico/", // Replace with your actual Upwork profile link
+  };
+
   const { scrollYProgress } = useScroll();
 
   const [visible, setVisible] = useState(false);
@@ -75,6 +81,8 @@ export const FloatingNav = ({
           className,
         )}
       >
+
+        {/* Map through the navItems */}
         {navItems.map((navItem: any, idx: number) => (
           <a
             key={`link=${idx}`}
@@ -88,6 +96,20 @@ export const FloatingNav = ({
             </Button>
           </a>
         ))}
+
+        {/* Work with Us Button */}
+        <a
+          key="work-with-us"
+          href={workWithUsButton.link}
+          className={cn(
+            "relative left-4",
+            "bg-black text-white px-4 py-2 rounded-full shadow-md hover:bg-[#6FDA44] hover:text-black transition-all"
+          )}
+        >
+          <Button variant="link">
+            <span className="text-sm text-white hover:text-black">{workWithUsButton.name}</span>
+          </Button>
+        </a>
       </motion.div>
     </AnimatePresence>
   );

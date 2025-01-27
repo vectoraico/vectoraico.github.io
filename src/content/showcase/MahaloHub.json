@@ -1,0 +1,11 @@
+{
+  "title": "Mahalohub's (Video Editing Suit)",
+  "image": "/src/content/showcase/_images/MahaloHub-Logo.png",
+  "url": "https://mahalohub.com/",
+  "featured": 2,
+  "service": [
+    "Video Editing",
+    "Post-Production Services",
+    "Custom Animation"
+  ]
+}

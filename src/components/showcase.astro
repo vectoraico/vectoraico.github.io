@@ -12,26 +12,43 @@ const orderedSites = featuredSites.sort(
 );
 ---
 
+<ContentSection title="Work With Us" id="upwork-agency">
+  <Fragment slot="lead">
+    <h2
+      class="mx-auto max-w-[80vw] text-balance text-center text-xl md:max-w-[40vw]"
+    >
+      Ready to collaborate on your next big project? Visit our <span
+        class="text-primary">Upwork Agency</span
+      > page to explore how we can bring your ideas to life.
+    </h2>
+  </Fragment>
+  <div class="mt-4 text-center">
+    <a
+      href="https://www.upwork.com/agencies/vectoraico/"
+      class="hover:bg-primary-dark inline-block rounded-lg bg-primary px-6 py-3 text-white transition-all"
+    >
+      Visit Our Upwork Agency
+    </a>
+  </div>
+</ContentSection>
+
 <ContentSection title="Hallmarks" id="showcase">
   <Fragment slot="lead">
     <h2
       class="mx-auto max-w-[80vw] text-balance text-center text-xl md:max-w-[40vw]"
     >
-      Explore the path we've covered as we delve into our journey.
-      <!-- Astro comes <span class="text-primary">batteries included</span>. It takes
-      the best parts of
-      <span class="text-primary">state-of-the-art</span>
-      tools and adds its own <span class="text-primary">innovations</span>. -->
+      Discover our journey through innovation and excellence. We are dedicated
+      to serving <span class="text-primary">our valued customers</span>,
+      combining
+      <span class="text-primary">cutting-edge</span>
+      technology with our own <span class="text-primary"
+        >unique advancements</span
+      >.
     </h2>
   </Fragment>
   <div class="max-w-6xl space-y-2">
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {orderedSites.map((site) => <ShowcaseCard site={site} />)}
     </div>
-    <p class="text-right text-sm">
-      <a class="text-primary" href="https://astro.build/showcase/">
-        ...and more &rarr;
-      </a>
-    </p>
   </div>
 </ContentSection>

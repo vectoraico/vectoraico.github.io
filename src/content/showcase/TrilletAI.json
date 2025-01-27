@@ -1,0 +1,12 @@
+{
+  "title": "Trillet AI",
+  "image": "/src/content/showcase/_images/Trillet-Logo.png",
+  "url": "https://trillet.ai/",
+  "featured": 1,
+  "service": [
+    "Voice AI Services",
+    "Customer Onboarding",
+    "Voice Agents",
+    "Prompt Engineering"
+  ]
+}

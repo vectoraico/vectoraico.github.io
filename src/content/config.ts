@@ -8,6 +8,7 @@ const showcase = defineCollection({
       image: image(),
       url: z.string().url(),
       featured: z.number().min(1).optional(),
+      service: z.array(z.string()).optional(), 
     }),
 });
 
