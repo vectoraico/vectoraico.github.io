@@ -1,0 +1,13 @@
+{
+    "name": "Abdullah Daniyal",
+    "designation": "Full-Stack Developer",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/abdullah-daniyal-3b1722273/"
+        }
+    ],
+    "image": "/src/assets/team_images/abdullah-daniyal.png",
+    "featured": 2.8
+}

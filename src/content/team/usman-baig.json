@@ -1,0 +1,13 @@
+{
+    "name": "Usman Baig",
+    "designation": "Full-Stack Developer",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/muhammad-usman-baig-06954427a/"
+        }
+    ],
+    "image": "/src/assets/team_images/usman-baig.png",
+    "featured": 2.9
+}

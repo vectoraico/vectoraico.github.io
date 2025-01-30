@@ -1,0 +1,13 @@
+{
+    "name": "Qasim Saeed",
+    "designation": "Deep Learning Engineer",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/qasim-saeed-246a7524a/"
+        }
+    ],
+    "image": "/src/assets/team_images/qasim-saeed.png",
+    "featured": 2.6
+}

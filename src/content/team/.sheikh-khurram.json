@@ -1,0 +1,13 @@
+{
+    "name": "Sheikh Khurram",
+    "designation": "Legal Adviser",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": " "
+        }
+    ],
+    "image": "/src/assets/team_images/sheikh-khurram.png",
+    "featured": 3
+}

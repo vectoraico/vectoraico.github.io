@@ -1,0 +1,13 @@
+{
+    "name": "Raphael Atiq",
+    "designation": "Full-Stack Trainee",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/raphael-atiq-6b867128b/"
+        }
+    ],
+    "image": "/src/assets/team_images/raphael-atiq.png",
+    "featured": 14.8
+}

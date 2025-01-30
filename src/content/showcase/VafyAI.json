@@ -1,0 +1,12 @@
+{
+  "title": "Vafy AI",
+  "image": "/src/content/showcase/_images/VafyAI-Logo.png",
+  "url": "https://vafy.ai/",
+  "featured": 4,
+  "service": [
+    "Voice AI Services",
+    "Prompt Engineering",
+    "Customer Onboarding",
+    "Voice Agents"
+  ]
+}

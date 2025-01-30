@@ -1,0 +1,13 @@
+{
+    "name": "Sammar Kaleem",
+    "designation": "Machine Learning Intern",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/sammar-kaleem-431395239/"
+        }
+    ],
+    "image": "/src/assets/team_images/sammar-kaleem.png",
+    "featured": 3
+}

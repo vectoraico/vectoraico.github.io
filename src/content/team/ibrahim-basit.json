@@ -1,0 +1,13 @@
+{
+    "name": "Ibrahim Basit",
+    "designation": "Software Engineer",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/ibrahim-basit/"
+        }
+    ],
+    "image": "/src/assets/team_images/ibrahim-basit.png",
+    "featured": 2.55
+}

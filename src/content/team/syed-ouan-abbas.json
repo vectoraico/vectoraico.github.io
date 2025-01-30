@@ -1,0 +1,13 @@
+{
+    "name": "Syed Ouan Abbas",
+    "designation": "Associate Machine Learning Engineer",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/syed-oaun-7a1a9023a/"
+        }
+    ],
+    "image": "/src/assets/team_images/syed-ouan-abbas.png",
+    "featured": 3
+}
