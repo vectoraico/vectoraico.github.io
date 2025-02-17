@@ -1,0 +1,14 @@
+{
+    "name": "Sheikh Muhammad Affan",
+    "designation": "Full Stack Software Engineer",
+    "bio": "Muhammad Affan is an aspiring Full Stack developer with extensive expertise in Front end development. He's a fun and friendly person to be around.  When it comes to sports, Affan likes to play table tennis, and computer games. With a blend of both technical and creative skills, he is always eager to learn new technologies and frameworks. He is a team player and always ready to help his team members. He is a quick learner and always ready to take on new challenges. He is a big thinker and always imagines how technology can make Pakistan better in the future. He is on a mission to make sure technology plays a big role in making Pakistan a better place.",
+    "socials": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/sheikhmuhammadaffan/"
+      }
+    ],
+    "image": "/src/assets/team_images/muhammad-affan.jpg",
+    "featured": 2.5
+  }
+  

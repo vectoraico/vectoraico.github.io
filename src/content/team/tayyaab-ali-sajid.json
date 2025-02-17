@@ -1,0 +1,13 @@
+{
+    "name": "Tayyaab Ali Sajid",
+    "designation": "Full Stack Software Engineer",
+    "bio": " To be updated.",
+    "socials": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/tayyaab-ali/"
+        }
+    ],
+    "image": "/src/assets/team_images/tayyaab.jpg",
+    "featured": 11
+}

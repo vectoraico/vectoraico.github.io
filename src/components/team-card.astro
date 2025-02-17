@@ -17,8 +17,9 @@ const { member } = Astro.props;
       class="rounded-lg object-contain"
       src={member.image}
       alt={member.name}
-      width={Math.min(member.image.width, 400)}
-      height={member.image.height}
+      width={400}
+      height={400}
+      loading="lazy"
     />
   </div>
 
